@@ -30,7 +30,9 @@ for process, hel_amps in data.items():
 
 def helicity_amps_qcdf(q2, par, B, V, cp_conjugate=False, contribution='all'):
     if q2 > 6:
-        warnings.warn("The QCDF corrections should not be trusted for q2 above 6 GeV^2")
+        #warnings.warn("The QCDF corrections should not be trusted for q2 above 6 GeV^2")
+        pass
+
     # ml = par['m_'+lep]
     # if lep == 'tau' or q2 < 4*ml**2 or q2 > 9:
     #     return {('0' ,'V'): 0, ('pl' ,'V'): 0, ('mi' ,'V'): 0}
