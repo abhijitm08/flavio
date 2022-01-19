@@ -15964,3 +15964,20 @@ LHCb RK 2021 no systematic:
        2.81130369e-21, 2.56755291e-21, 2.34498550e-21, 2.14175652e-21,
        1.95618200e-21]
 
+LHCb RKS 2021:
+   experiment: LHCb
+   inspire: LHCb:2021lvy
+   values:
+     - name: <Rmue>(B0->Kll)
+       q2min: 1.1
+       q2max: 6.0
+       value: 0.66 + 0.20 - 0.14 + 0.02 - 0.04
+
+LHCb RKstplus 2021:
+   experiment: LHCb
+   inspire: LHCb:2021lvy
+   values:
+     - name: <Rmue>(B+->K*ll)
+       q2min: 0.045
+       q2max: 6.0
+       value: 0.70 + 0.18 - 0.13 + 0.03 - 0.04
