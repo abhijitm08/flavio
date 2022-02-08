@@ -44,3 +44,5 @@ pip-delete-this-directory.txt
 # other
 .directory
 .ipynb_checkpoints
+
+flavio/data/RK_SMtoys_flavio
